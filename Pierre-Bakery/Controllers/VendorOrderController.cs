@@ -12,6 +12,16 @@ namespace VendorOrder.Controller
         {
             return View();
         }
+        [HttpGet("/vendor/{id}")]
+        public ActionResult Show(int id)
+        {
+            
+            Vendor currentVendor = Vendor.Find(id);
+            List<Order> vendorOrder = currentVendor.Order;
+            model.Add("vendor", currentVendor);
+            model.Add("order", vendorOrder);
+            return View(model);
+        }
 
         [HttpPost("/vendorlist")]
         public ActionResult Index(string vendorName, string vendorDiscription)
