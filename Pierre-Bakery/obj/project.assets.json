@@ -12077,11 +12077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/haileygaylor/Desktop/Pierre-Bakery.Solution/Pierre-Bakery/Pierre-Bakery.csproj",
+      "projectUniqueName": "/Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/Pierre-Bakery.csproj",
       "projectName": "Pierre-Bakery",
-      "projectPath": "/Users/haileygaylor/Desktop/Pierre-Bakery.Solution/Pierre-Bakery/Pierre-Bakery.csproj",
+      "projectPath": "/Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/Pierre-Bakery.csproj",
       "packagesPath": "/Users/haileygaylor/.nuget/packages/",
-      "outputPath": "/Users/haileygaylor/Desktop/Pierre-Bakery.Solution/Pierre-Bakery/obj/",
+      "outputPath": "/Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

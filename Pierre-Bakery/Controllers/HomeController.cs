@@ -1,9 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Pierre_Bakery.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Pierre_Bakery.HomeController
+namespace Pierre_Bakery.Controllers
 {
+    public class HomeController : Controller
+    {
+        [HttpGet("/")]
+        public ActionResult Index()
+        {
+            return View();
+        }
 
+    }
 }
