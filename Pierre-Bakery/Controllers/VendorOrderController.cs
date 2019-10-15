@@ -19,10 +19,6 @@ namespace VendorOrder.Controller
             Vendor newvendor = new Vendor(vendorName, vendorDiscription);
             List<Vendor> vendorOrder = newvendor.VendorOrder;
 
-
-            Order newOrder = new Order(orderTitle, orderDiscription, price);
-            List<Order> Orders = newOrder.Orders;
-
             return View("Index", vendorOrder);
         }
 
