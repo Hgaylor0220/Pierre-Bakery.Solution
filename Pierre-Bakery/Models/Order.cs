@@ -1,7 +1,6 @@
 using System.Collections.Generic;
-using Vendor.Models;
 
-namespace Order.Models
+namespace Pierre_Bakery.Models
 {
     public class Order
     {
@@ -12,7 +11,7 @@ namespace Order.Models
         public int Price { get; set;}
         public int ID { get; }
 
-        public static List<Order> Orders = new List<Order> { };
+        private static List<Order> _orders = new List<Order> { };
 
         public Order(string orderTitle , string orderDiscription, int price, int date, int Id)
         {
@@ -20,9 +19,9 @@ namespace Order.Models
             Discription = orderDiscription;
             Date = date;
             Price = price;
-            Orders.Add(this);
-            Id = Orders.Count;
-            Orders = new List<Order> { };
+            _orders.Add(this);
+            Id = _orders.Count;
+            _orders = new List<Order> { };
         }
         public static int OrderTotal(int price)
         {
@@ -31,17 +30,17 @@ namespace Order.Models
         
         public static List<Order> GetAll()
         {
-            return Orders;
+            return _orders;
         }
 
         public static void ClearAll()
         {
-            Orders.Clear();
+            _orders.Clear();
         }
 
         public static Order Find(int searchID)
         {
-            return Orders[searchID - 1];
+            return _orders[searchID - 1];
         }
     }
     

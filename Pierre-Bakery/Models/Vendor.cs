@@ -1,42 +1,45 @@
 using System.Collections.Generic;
-using Order.Models;
 
-namespace Vendor.Models 
-{
+namespace Pierre_Bakery.Models 
+{ 
     public class Vendor
     {
 
-        public int ID { get; }
+        public int Id { get; }
         public string Name { get; set; }
-        public string Discription { get; set; }
+        public string Description { get; set; }
         public List<Order> Orders { get; set; }
 
 
-        public static List<Vendor> VendorOrders = new List<Vendor> { };
+        private static List<Vendor> _vendorOrders = new List<Vendor> { };
         public static int idAssigner { get; set; }
 
-        public Vendor(string vendorName, string vendorDiscription, int Id )
+        public Vendor(string vendorName, string vendorDescription, int Id )
         {
             Name = vendorName;
-            Discription = vendorDiscription;
-            VendorOrders.Add(this);
-            Id = VendorOrders.Count;
+            Description = vendorDescription;
+            _vendorOrders.Add(this);
+            Id = _vendorOrders.Count;
             Orders = new List<Order> { };
         }
 
         public static List<Vendor> GetAll()
         {
-            return VendorOrders;
+            return _vendorOrders;
         }
 
         public static void ClearAll()
         {
-            VendorOrders.Clear();
+            _vendorOrders.Clear();
         }
 
         public static Vendor Find(int searchID)
         {
-            return VendorOrders[searchID - 1];
+            return _vendorOrders[searchID - 1];
+        }
+        public void AddOrder(Order order)
+        {
+            Orders.Add(order);
         }
     }
 

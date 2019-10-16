@@ -2969,6 +2969,16 @@
       "FilePath": "Views/Home/Index.cshtml",
       "TargetPath": "Views/Home/Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Item/New.cshtml",
+      "TargetPath": "Views/Item/New.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Item/Show.cshtml",
+      "TargetPath": "Views/Item/Show.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
