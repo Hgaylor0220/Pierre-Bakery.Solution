@@ -4,44 +4,31 @@ namespace Pierre_Bakery.Models
 {
     public class Order
     {
+        public string Description { get; set; }
+        public int Id { get; }
+        private static List<Order> _instances = new List<Order> { };
 
-        public int Date { get; set;}
-        public string Title { get; set;}
-        public string Discription { get; set;}
-        public int Price { get; set;}
-        public int ID { get; }
-
-        private static List<Order> _orders = new List<Order> { };
-
-        public Order(string orderTitle , string orderDiscription, int price, int date, int Id)
+        public Order(string description)
         {
-            Title = orderTitle;
-            Discription = orderDiscription;
-            Date = date;
-            Price = price;
-            _orders.Add(this);
-            Id = _orders.Count;
-            _orders = new List<Order> { };
+            Description = description;
+            _instances.Add(this);
+            Id = _instances.Count;
         }
-        public static int OrderTotal(int price)
-        {
-            return price;
-        }
-        
+
         public static List<Order> GetAll()
         {
-            return _orders;
+            return _instances;
         }
 
         public static void ClearAll()
         {
-            _orders.Clear();
+            _instances.Clear();
         }
 
-        public static Order Find(int searchID)
+        public static Order Find(int searchId)
         {
-            return _orders[searchID - 1];
+            return _instances[searchId - 1];
         }
+
     }
-    
 }

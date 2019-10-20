@@ -2958,11 +2958,31 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "Pierre_Bakery",
+  "RootNamespace": "Pierre-Bakery",
   "Documents": [
     {
-      "FilePath": "Views/Item/Index.cshtml",
-      "TargetPath": "Views/Item/Index.cshtml",
+      "FilePath": "Views/Orders/Show.cshtml",
+      "TargetPath": "Views/Orders/Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Orders/New.cshtml",
+      "TargetPath": "Views/Orders/New.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Vendors/Show.cshtml",
+      "TargetPath": "Views/Vendors/Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Orders/Index.cshtml",
+      "TargetPath": "Views/Orders/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Vendors/New.cshtml",
+      "TargetPath": "Views/Vendors/New.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2971,13 +2991,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views/Item/New.cshtml",
-      "TargetPath": "Views/Item/New.cshtml",
+      "FilePath": "Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views/Shared/_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views/Item/Show.cshtml",
-      "TargetPath": "Views/Item/Show.cshtml",
+      "FilePath": "Views/Vendors/Index.cshtml",
+      "TargetPath": "Views/Vendors/Index.cshtml",
       "FileKind": "mvc"
     }
   ],
