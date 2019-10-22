@@ -14,7 +14,6 @@
 /Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Pierre-Bakery.TagHelpers.input.cache
 /Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Pierre-Bakery.TagHelpers.output.cache
 /Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Pierre-Bakery.RazorCoreGenerate.cache
-/Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Item/Index.g.cshtml.cs
 /Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Pierre-Bakery.RazorTargetAssemblyInfo.cache
 /Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Pierre-Bakery.RazorTargetAssemblyInfo.cs
 /Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Pierre-Bakery.Views.pdb
@@ -22,3 +21,10 @@
 /Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Pierre-Bakery.pdb
 /Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Pierre-Bakery.csproj.CopyComplete
 /Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Orders/DeleteAll.g.cshtml.cs
+/Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Orders/New.g.cshtml.cs
+/Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Show.g.cshtml.cs
+/Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Vendors/Index.g.cshtml.cs
+/Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Vendors/New.g.cshtml.cs
+/Users/haileygaylor/Epicodus-Projects/Pierre-Bakery.Solution/Pierre-Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Vendors/Show.g.cshtml.cs

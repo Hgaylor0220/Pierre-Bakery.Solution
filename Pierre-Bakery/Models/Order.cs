@@ -5,12 +5,14 @@ namespace Pierre_Bakery.Models
     public class Order
     {
         public string Description { get; set; }
+        public string Date {get; set; }
         public int Id { get; }
         private static List<Order> _instances = new List<Order> { };
 
-        public Order(string description)
+        public Order(string description, string date)
         {
             Description = description;
+            Date = Date;
             _instances.Add(this);
             Id = _instances.Count;
         }

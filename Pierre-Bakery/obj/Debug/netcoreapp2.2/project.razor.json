@@ -2961,6 +2961,11 @@
   "RootNamespace": "Pierre-Bakery",
   "Documents": [
     {
+      "FilePath": "Views/Orders/DeleteAll.cshtml",
+      "TargetPath": "Views/Orders/DeleteAll.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Orders/Show.cshtml",
       "TargetPath": "Views/Orders/Show.cshtml",
       "FileKind": "mvc"
@@ -2973,11 +2978,6 @@
     {
       "FilePath": "Views/Vendors/Show.cshtml",
       "TargetPath": "Views/Vendors/Show.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views/Orders/Index.cshtml",
-      "TargetPath": "Views/Orders/Index.cshtml",
       "FileKind": "mvc"
     },
     {
